@@ -1,0 +1,59 @@
+body{
+  background-image:url('../img/back.min.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+h1{
+  font-family: 'Parisienne', cursive;
+  color: white;
+  font-size: 62px;
+  margin-bottom: 0px;
+}
+
+a{
+  text-decoration:none;
+  color:#2B82AD;
+}
+
+img{
+  vertical-align:middle;
+}
+
+.name{
+  padding-left:8%;
+  padding-top:6%;
+}
+
+.headline, .bio, .icons, .location, .tags{
+  padding-left:8%;
+}
+
+.headline{
+  font-family: 'Tauri', sans-serif;
+  color: #9fced4;
+}
+
+.location, .tags{
+  font-family: 'Ruluko', sans-serif;
+  color:#2B82AD;
+}
+
+.bio{
+  font-family: 'Gilda Display', serif;
+  color: white;
+  width: 50%;
+  display: none;
+}
+
+.icons{
+  display: inline-flex;
+}
+
+.icon{
+  padding: 10px 0px 0px 5px;
+}
+
+.pin, .tag{
+  padding-right:5px;
+}
