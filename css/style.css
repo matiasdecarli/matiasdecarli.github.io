@@ -13,7 +13,7 @@ body{
 
 .name{
 	font-family: 'BenchNine', sans-serif;
-	font-size: 2pc;
+	font-size: 2.5pc;
 }
 
 span{
@@ -29,13 +29,34 @@ a:link, a:visited {
     color: black;    
 }
 
-@media (max-width: 500px) {
-  .stripe{
+@media (max-width: 750px) {
+  	.stripe{
 		display:block;
 	}
 
-	img{
+  	img{
 		padding-top: 5%;
 		padding-bottom: 5%;
+  	}
+
+  	.name{
+		font-family: 'BenchNine', sans-serif;
+		font-size: 3.5pc;
+	}
+}
+
+@media only screen and (max-device-width: 720px) {
+  	.stripe{
+		display:block;
+	}
+
+  	img{
+		padding-top: 5%;
+		padding-bottom: 5%;
+  	}
+
+  	.name{
+		font-family: 'BenchNine', sans-serif;
+		font-size: 5pc;
 	}
 }
